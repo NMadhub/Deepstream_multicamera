@@ -69,7 +69,7 @@ This will generate the binary called `ds-yolo`. This is a one-time step and you 
 Next, create a file called `inputsources.txt` and paste the path of videos or rtsp url.
 
 ```sh
-file:///home/astr1x/Videos/sample.mp4
+file:///home/nmadhab/Videos/sample_qHD.mp4
 rtsp://admin:admin%40123@192.168.1.1:554/stream
 ```
 
