@@ -58,7 +58,7 @@ git@github.com:aj-ames/YOLOv4-Deepstream.git
 Download the weights file from [google-drive](https://drive.google.com/file/d/1nZds8loc4XdG4KQGdgoU-xyOgwJqv9m-/view?usp=sharing) and place it in `models/YOLOv4` directory.
 
 Please ensure you have your CUDA libraries and paths are proper before proceeding further. If not please do as follows:
-Go to ```sh vi ~/.bashrc```
+Go to ```vi ~/.bashrc```. Then ```source ~/.bashrc```
 Add the following lines:
 ```sh
 # CUDA
