@@ -58,8 +58,7 @@ git@github.com:aj-ames/YOLOv4-Deepstream.git
 Download the weights file from [google-drive](https://drive.google.com/file/d/1nZds8loc4XdG4KQGdgoU-xyOgwJqv9m-/view?usp=sharing) and place it in `models/YOLOv4` directory.
 
 Please ensure you have your CUDA libraries and paths are proper before proceeding further. If not please do as follows:
-Go to ```vi ~/.bashrc```. Then ```source ~/.bashrc```
-Add the following lines:
+Go to ```vi ~/.bashrc```. Then Add the following lines:
 ```sh
 # CUDA
 export CUDA=11.1
@@ -72,7 +71,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 export NVCC=/usr/local/cuda-$CUDA/bin/nvcc
 export CFLAGS="-I$CUDA_HOME/include $CFLAGS"
 ```
-
+Then do ```source ~/.bashrc```
 
 ### 3. Build the application
 
