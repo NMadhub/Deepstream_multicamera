@@ -48,9 +48,9 @@ Next, clone the repository
 
 ```sh
 # Using HTTPS
-https://github.com/aj-ames/YOLOv4-Deepstream.git
+git clone https://github.com/NMadhub/Deepstream_multicamera.git
 # Using SSH
-git@github.com:aj-ames/YOLOv4-Deepstream.git
+git@github.com:NMadhub/Deepstream_multicamera.git
 ```
 
 ### 2. Download the weights file
